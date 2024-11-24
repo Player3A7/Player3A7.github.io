@@ -1,24 +1,27 @@
 # Site settings
-title: Ger Ready To The Next Battle
+title: My Game List
 SEOTitle: 永 無 止 境
-header-img: img/home-bg.jpg
-email: 3123535552@qq.com
+header-img: img/home-bg.jpg  #记住这个文件名称的路径
+email:  #我删了
 description: "Welocome stranger! "
 keyword: "这里就是我的游玩清单了"
-url: "https://huangxuan.me" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+url: ""         # your host, for absolute URL
+baseurl: ""     # for example, '/blog' if your blog hosted on 'host/blog'
+
 
 # Publish posts or collection documents with a future date.
-future: true
+future: false  #我更改过，原本为true
 
 # SNS settings
-RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+/*
+# RSS: false
+# weibo_username: huxpro
+# zhihu_username: huxpro
+# github_username: huxpro
+# twitter_username: huxpro
+# facebook_username:  huxpro
+# linkedin_username:  firstname-lastname-idxxxx
+*/
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -59,7 +62,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: 3A7    #原为hux
 
 # Netease settings
 netease_comment: false
@@ -74,10 +77,10 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "多玩才能有新点子 <br> 持续通关中"
+sidebar-avatar: https://github.com/Huxpro.png  # use absolute URL, seeing it's used in both `/` and `/about/`
 
-# Featured Tags
+# Featured Tags   这玩意就是脑袋上的一些TAG，建议先修改，实在不行就屏蔽
 featured-tags: true # whether or not using Feature-Tags
 featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
@@ -88,15 +91,15 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-# Friends
-friends:
-  [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
-  ]
+# # Friends   建议直接全部屏蔽
+# friends:
+#   [
+#     { title: "乱序（Midare）", href: "http://mida.re/" },
+#     { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
+#     { title: "Kun Qian", href: "http://kunq.me" },
+#     { title: "Sherry Woo", href: "https://sherrywoo.me/" },
+#     { title: "SmdCn", href: "http://blog.smdcn.net" },
+#     { title: "JiyinYiyong", href: "http://tiye.me/" },
+#     { title: "DHong Say", href: "http://dhong.co" },
+#     { title: "尹峰以为", href: "http://ingf.github.io/" },
+#   ]
